@@ -76,7 +76,7 @@ quit
 kinit -p user1
 
 $ beeline
-beeline> !connect jdbc:hive2://ip-172-31-64-242.ec2.internal:10000/default;principal=hive/ip-172-31-64-242.ec2.internal@HADOOP.COM
+beeline> !connect jdbc:hive2://ip-172-31-45-192.ec2.internal:10000/default;principal=hive/ip-172-31-45-192.ec2.internal@HADOOP.COM
 
 create database database1;
 
